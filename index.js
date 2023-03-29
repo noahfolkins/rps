@@ -72,7 +72,7 @@ function game(){
     for (let i = 1; i < 6; i++){
         choice = prompt(`Type Rock, Paper, or Scissors:`);
         alert(`You: `+ choice[0].toUpperCase() + choice.substring(1) + `!\r` + playerSelection());
-        alert(`Game: ` + i + `/3\r` + `Score:\rYou: ` + w +`\rCPU: ` + l + `\rTies: ` + t);
+        alert(`Game: ` + i + `/5\r` + `Score:\rYou: ` + w +`\rCPU: ` + l + `\rTies: ` + t);
         if (badAnswer == 1){
             i--;
             badAnswer--;
